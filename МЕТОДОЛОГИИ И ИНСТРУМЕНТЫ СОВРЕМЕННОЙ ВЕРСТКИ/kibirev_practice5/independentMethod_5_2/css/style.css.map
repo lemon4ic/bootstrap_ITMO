@@ -1,0 +1,16 @@
+{
+    "version": 3,
+    "mappings": "AEAA,AAAA,MAAM,CAAC;EACH,gBAAgB,EFAJ,OAAO;EECnB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,OAAO;CACjC;;ACJD,AAAA,KAAK,CAAC;EACF,UAAU,EAAE,IAAI;EAChB,MAAM,EAAE,IAAI;EAAE,OAAO,EAAE,CAAC;CAE3B;;AAJD,ACAA,KDAK,CCAL,WAAW,CAAC;EACR,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,QAAQ;CASpB;;ADXD,ACGI,KDHC,CCAL,WAAW,CAGP,CAAC,CAAC;EACE,eAAe,EAAE,IAAI;EACrB,KAAK,EJLH,IAAI;EIMN,SAAS,EJHA,IAAI;CIOhB;;ADVL,ACOQ,KDPH,CCAL,WAAW,CAGP,CAAC,AAII,MAAM,CAAC;EACJ,eAAe,EAAE,SAAS;CAC7B;;ACTT,AAAA,YAAY,CAAC;EAAE,MAAM,EAAE,IAAI;CAG1B;;AAHD,ACAA,YDAY,CCAZ,mBAAmB,CAAC;ELChB,SAAS,EDEI,IAAI;ECDjB,gBAAgB,EDFV,IAAI;ECGV,KAAK,EDDG,IAAI;ECEZ,OAAO,EAAE,QAAQ;EKFjB,MAAM,EAAE,IAAI;CACf;;ADHD,AEAA,YFAY,CEAZ,oBAAoB,CAAC;ENCjB,SAAS,EDEI,IAAI;ECDjB,gBAAgB,EDFV,IAAI;ECGV,KAAK,EDDG,IAAI;ECEZ,OAAO,EAAE,QAAQ;CMFpB;;APQD,AAAA,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;CACZ;;AACD,AAAA,IAAI,CAAC;EACD,gBAAgB,EAdV,IAAI;CAeb",
+    "sources": [
+        "../scss/style.scss",
+        "../scss/mixins.blocks/mixins.scss",
+        "../scss/common.blocks/header/header.scss",
+        "../scss/common.blocks/menu/menu.scss",
+        "../scss/common.blocks/menu/__item/menu__item.scss",
+        "../scss/common.blocks/search-form/search-form.scss",
+        "../scss/common.blocks/search-form/__input/search-form__input.scss",
+        "../scss/common.blocks/search-form/__button/search-form__button.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

@@ -1,0 +1,23 @@
+body {
+  background-color: #b3a8e2;
+}
+
+.box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 100px;
+  height: 100px;
+  background: #000;
+}
+
+.item1 {
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+/*# sourceMappingURL=style.css.map */

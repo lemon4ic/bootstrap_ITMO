@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7.1</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+        header, article, main, aside {
+            text-align: center;
+            flex-grow: 1;
+            padding-top: 10px;
+            background-color: aqua;
+        }
+        article, main, aside {
+            height: 100vw;
+        }
+
+        header {
+            width: 100%;
+            padding-bottom: 40px;
+            background: rgb(63, 100, 200);
+        }
+        .flex_container{
+            align-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        main{
+            flex-grow: 3;
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex_container">
+        <header>Шапка</header>
+        <article>Меню</article>
+        <main>Основной контейнер</main>
+        <aside>Сайдбар</aside>    
+    </div>
+</body>
+</html>

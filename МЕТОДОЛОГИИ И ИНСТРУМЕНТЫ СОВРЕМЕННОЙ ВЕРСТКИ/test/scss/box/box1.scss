@@ -1,0 +1,10 @@
+
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    height: 100px;
+    background: #000;
+}
+
+@import "item1/item1.scss";

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7.2</title>
+    <style>
+        .flex_container {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .box {
+            border: 1px solid #ccc;
+            padding: 5px;
+            flex: 1;
+        }
+        h5 {
+            padding-top: 10px;
+        }
+
+        .box:nth-child(3){
+            flex: 2;
+            align-self: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex_container">
+        <div class="box"><h5>Box1</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cupiditate qui cumque earum ex, consequuntur nam, voluptas eveniet provident blanditiis nulla eum consectetur porro accusamus ab amet recusandae nostrum! Omnis!</p></div>
+        <div class="box"><h5>Box2</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cupiditate qui cumque earum ex, consequuntur nam, voluptas eveniet provident blanditiis nulla eum consectetur porro accusamus ab amet recusandae nostrum! Omnis!</p></div>
+        <div class="box"><h5>Box3</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cupiditate qui cumque earum ex, consequuntur nam, voluptas eveniet provident blanditiis nulla eum consectetur porro accusamus ab amet recusandae nostrum! Omnis!</p></div>
+        <div class="box"><h5>Box4</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cupiditate qui cumque earum ex, consequuntur nam, voluptas eveniet provident blanditiis nulla eum consectetur porro accusamus ab amet recusandae nostrum! Omnis!</p></div>
+        <div class="box"><h5>Box5</h5><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium cupiditate qui cumque earum ex, consequuntur nam, voluptas eveniet provident blanditiis nulla eum consectetur porro accusamus ab amet recusandae nostrum! Omnis!</p></div>
+    </div>
+</body>
+</html>
